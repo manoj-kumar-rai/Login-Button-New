@@ -3,8 +3,84 @@
     margin: 0;
 }
 
-.login-button {
-    padding: 10px 15px;
-    background-color: blue;
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
 }
 
+#loginForm {
+  margin-top: 20px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+/* Invisible class */
+.hidden {
+  opacity: 0;
+  display: none;
+}
+
+
+
+body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    nav {
+      background-color: #1f2937; /* dark gray */
+      color: white;
+      padding: 0.5rem 2rem;
+    }
+
+    .navbar .navbarOne {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+
+    .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 2rem;
+      margin: 0;
+      padding: 0;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      color: white;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+
+    .nav-links a:hover,
+    .nav-links a:focus {
+      border-bottom: 2px solid #facc15;
+      color: #facc15; /* amber-400 */
+    }
+
+    /* .nav-links a.active {
+      border-bottom: 2px solid #facc15;
+    } */
+
+    nav ul {
+        list-style: none;
+    }
+
+    nav ul a {
+        text-decoration: none;
+        color: white;
+    }
